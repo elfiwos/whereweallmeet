@@ -1,0 +1,257 @@
+div.sub-nav ul{
+    display: block;
+    list-style: none;
+    float: left;
+    padding: 10px 0 10px 0px;
+    width: 100%;
+    margin-top: -5px;
+   
+}
+div.sub-nav ul li {
+
+}
+
+div.sub-nav ul li a{
+
+    display: inline-block;
+    padding: 5px 10px;
+   font-weight:bold;
+    float: left;
+    color: #aaacad;
+	
+    text-decoration: none;
+	 background-color: #eeeeee;
+}
+div.sub-nav ul li a.active-link{
+    background-color: #eeeeee;
+    background-color: rgb(245, 245, 245);
+	color: #004793;
+}
+#main{
+color:black;
+margin-top:32px;
+  background-color: white;
+   border: 1px solid rgb(224, 224, 224);
+
+    font-weight: normal;
+	font-size: 15px;
+	padding:1%;
+	min-height:200px;
+}
+div.allcontent{
+  
+ 
+}
+div.sub-nav ul{
+    display: block;
+    list-style: none;
+    float: left;
+    padding: 10px 0 10px 0px;
+    width: 100%;
+    margin-top: -5px;
+	
+	
+   color: #aaacad;
+}
+div.allcontent  ul{
+    display: block;
+    list-style: none;
+    float: left;
+	width:100%;
+    padding: 10px 0 10px 0px;
+     margin-top: -5px;
+	 margin-left:10px;
+	  color: #aaacad;
+}
+div.allcontent ul li {
+    background-color: #e0e0e0;
+    color: black;
+    display: inline-block;
+    float: left;
+    font-weight: bold;
+    height: 30px;
+    padding-top: 6px;
+    text-decoration: none;
+}
+div.allcontent ul li input {
+    margin-left: 15px;
+    margin-top: 0;
+}
+div.allcontent ul li.member-name {
+    text-align: right;
+    width: 220px;
+}
+div.allcontent ul li.promo-code {
+    text-align: right;
+    width: 135px;
+}
+div.allcontent ul li.date-joined {
+    text-align: right;
+    width: 125px;
+}
+div.allcontent ul li.membership-status {
+    padding-right: 20px;
+    text-align: center;
+    width: 215px;
+}
+div.allcontent ul li.blocked-status {
+    padding-right: 10px;
+    width: 70px;
+}
+div.allcontent ul li.deleted-status {
+    padding-right: 10px;
+    width: 70px;
+}
+#submain{
+ background-color: #eeeeee;
+ border: 1px solid rgb(224, 224, 224);
+ min-height:200px;
+}
+#content-members{
+min-height:200px;
+}
+#save, #delete, #block {
+border-radius: 3px 3px 3px 3px;
+color: rgb(255, 255, 255);
+font-size: 15px;
+text-decoration: none;
+background-color: rgb(12, 88, 164);
+border: 1px solid rgb(0, 71, 147);
+font-weight: bolder;
+width:80px;
+height:30px;
+display: inline;
+padding: 3px 5px;
+margin-top:20px;
+margin-bottom:20px;
+margin-left:10px;
+  
+}
+#save-members
+{
+border: 1px solid rgb(224, 224, 224);
+}
+#personal
+{
+    background-color: #e7e7e7;
+    border: 1px solid rgb(224, 224, 224);
+    color: #676767;
+    display: inline-block;
+    font-size: 11px;
+    font-style: italic;
+    margin-left: 10px;
+    padding: 10px;
+    width: 895px;
+}
+#name{
+    float: left;
+    font-size: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    width: 110px;
+    word-wrap: break-word;
+}
+#box{
+    float: left;
+    margin-right: 10px;
+    margin-top: 40px;
+}
+#personal div#profile-picture {
+    float: left;
+    margin-right: 10px;
+    width: 127px;
+}
+#personal #profile-picture p {
+    font-size: 11px;
+    overflow: auto;
+    text-align: center;
+}
+#member-status
+{
+    float: left;
+    margin-left: 10px;
+    margin-top: 32px;
+}
+#member-status select {
+    border: 1px solid #e0e0e0;
+    margin-top: 0;
+    padding: 5px;
+    width: 150px;
+}
+div#is-blocked {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    text-align: right;
+    width: 80px;
+}
+div#is-deleted {
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 40px;
+    text-align: right;
+    width: 60px;
+}
+#joined{
+    float: left;
+    margin-right: 10px;
+    margin-top: 40px;
+    text-align: center;
+    width: 125px;
+}
+div#promo-code {
+    float: left;
+    margin-top: 40px;
+    width: 100px;
+}
+div#subscription-date-container {
+    float: left;
+    margin-top: 10px;
+}
+#subscription-date-container span {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 5px;
+}
+#subscription-date-container input[type="text"] {
+    border: 1px solid #e0e0e0;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+
+#search-field-container {
+    margin-bottom: 10px;
+    margin-right: 20px;
+    text-align: right;
+}
+#search-field-container input[type="text"] {
+    border: 1px solid #cccccc;
+    font-family: helvetica;
+    font-size: 14px;
+    padding: 3px 5px;
+    width: 300px;
+}
+#search-field-container input[type="submit"] {
+    background: url("../../img/browse/search-btn-fw.png") no-repeat scroll 70px 5px #35b0cf !important;
+    border: medium none !important;
+    border-radius: 3px;
+    color: #ffffff !important;
+    padding: 4px 30px 3px 15px !important;
+}
+#save-members p#page-container {
+    display: inline-block;
+    margin-left: 20px;
+}
+p#page-container span {
+    display: inline-block;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+p#page-container span a {
+    font-weight: bold;
+    text-decoration: none;
+}

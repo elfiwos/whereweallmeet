@@ -1,0 +1,331 @@
+div#content {
+  border-radius: 3px;
+  margin: 20px 100px;
+  padding: 30px 0 0 0 !important;
+  background-color: #1a1a1a !important;
+}
+div#content h1 {
+  /*margin: 0 30px 15px 30px;*/
+  padding:5px 15px;
+  font-weight: lighter;
+  font-size: 25px;
+  line-height: 25px;
+  border-bottom: solid 1px #585858;
+    font-size: 18px;
+}
+div#content h1 img {
+  display: block;
+  float: left;
+  margin-right: 5px;
+}
+div#content h1 em {
+  color: #0c58a4;
+  font-style: normal;
+}
+div#content ul#matches {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 15px 0 15px;  
+}
+div#content ul#matches li {
+  display: inline-block;
+  margin-right: 20px;
+}
+div#content ul#matches li img {
+  display: block;
+  float: left;
+  border: solid 2px #000000;
+}
+div#content ul#matches li:last-child {
+  margin-right: 0;
+}
+div#content form {
+  /*background-color: #2b2b2b;*/
+  margin: 30px 0px 0px 0px;
+  padding: 10px 0px;
+}
+div#content form div#plan,
+div#content form div#payment-info {
+  float: left;
+}
+div#content form div#plan h2,
+div#content form div#payment-info h2 {
+  margin: 0px;
+  padding-bottom: 0px;
+  font-size: 18px;
+}
+div#content form div#payment-info h2 {
+  background: #424242;
+  color:#fff;
+  padding:5px 10px;
+}
+div#content form div#plan {
+  width: 270px;
+  margin-right: 30px;
+  background-color: #fff;
+  padding:10px;
+}
+div#content form div#plan h2 {
+  color: #000;
+  font-size: 15px;
+}
+div#content form div#plan div.details-container ul {
+  list-style: none;
+  padding: 0 0 0 0;
+  border: solid 1px #222222;
+  background: #343434;
+  margin-bottom: 0px;
+}
+div#content form div#plan div.details-container ul li {
+  padding: 5px 10px;
+  line-height: 40px;
+  border-bottom: solid 1px #222222;
+  border-top: solid 1px #333333;
+  color:#fff;
+}
+div#content form div#plan div.details-container ul li span.price {
+  display: block;
+  float: left;
+  margin: 0px 0px 0px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 40px;
+}
+div#content form div#plan div.details-container ul li span.savings {
+  display: block;
+  float: right;
+  margin-right: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  min-width: 100px;
+}
+div#content form div#plan div.details-container ul li span.savings em {
+  color: #0c58a4;
+  font-style: normal;
+}
+div#content form div#plan div.details-container ul li span.savings span {
+  display: block;
+  font-size: 10px;
+  line-height: 14px;
+}
+div#content form div#plan div.details-container ul li:first-child {
+  border-top: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+div#content form div#plan div.details-container ul li:last-child {
+  border-bottom: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+div#content form div#plan div.details-container ul li:hover {
+  background-color: #35b0cf;
+  color: #fff;
+}
+div#content form div#plan div.details-container ul li:hover span.savings {
+  color: #ffffff;
+}
+div#content form div#plan div.details-container ul li:hover span.savings em,
+div#content form div#plan div.details-container ul li:hover span.savings span {
+  color: #000000;
+}
+div#content form div#plan div.details-container ul li.strike-through {
+  color: #9c9c9c;
+}
+div#content form div#plan div.details-container ul li.strike-through span {
+  text-decoration: line-through;
+}
+div#content form div#plan div.details-container ul li.strike-through:hover {
+  background-color: #474747;
+  color: #bebebe;
+}
+div#content form div#plan div.details-container ul li.strike-through:hover span.savings {
+  color: #bebebe;
+}
+div#content form div#billing-details {
+  /*width: 468px;*/
+}
+div#content form div#billing-details a {
+  font-size: 13px;
+  color: #34b0d2;
+  text-decoration: none;
+  margin-left:10px;
+  margin-top:15px;
+}
+div#content form div#billing-details a:hover {
+  color: #ffffff;
+}
+div#content form div#payment-info,
+div#content form div#billing-details {
+  width: 640px;
+  background: #fff;
+}
+div#content form div#payment-info p,
+div#content form div#billing-details p {
+  font-size: 14px;
+}
+div#content form div#payment-info p label,
+div#content form div#billing-details p label {
+  display: inline-block;
+  width: 120px;
+  text-align: right;
+  font-weight: bold;
+  font-family: 'pt sans', arial, sans-serif;
+  margin-right: 10px;
+}
+div#content form div#payment-info p input[type=text],
+div#content form div#billing-details p input[type=text],
+div#content form div#payment-info p input[type=password],
+div#content form div#billing-details p input[type=password] {
+  border-radius: 3px;
+  border: solid 1px #777777;
+  padding: 3px 5px;
+  width: 300px;
+}
+div#content form div#payment-info p input[type=text].short,
+div#content form div#billing-details p input[type=text].short {
+  width: 80px;
+}
+div#content form div#payment-info p select,
+div#content form div#billing-details p select {
+  padding: 3px 5px;
+}
+div#content div#payment-info span.explain,
+div#content div#billing-details span.explain {
+  color: #0c58a4;
+  font-size: 12px;
+}
+div#content div#payment-info span.error,
+div#content div#billing-details span.error {
+  display: block;
+  color: #b94a48;
+  margin-top: 5px;
+}
+div#content div#payment-info span.error.with-margin,
+div#content div#billing-details span.error.with-margin {
+  display: none;
+}
+div#content form div#payment-info p.submit,
+div#content form div#billing-details p.submit {
+  padding-top: 50px;
+  margin-left: 132px;
+}
+
+div#content form div#payment-info p.submit input[type=submit],
+div#content form div#billing-details p.submit input[type=submit] {
+  border-radius: 3px;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 3px 5px;
+  background-color: #0c58a4;
+  border: solid 1px #004793;
+  font-weight: bold;
+}
+div#content form div#payment-info p.submit input[type=submit]:hover,
+div#content form div#billing-details p.submit input[type=submit]:hover {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+  background-color: #1d69b5;
+  border: solid 1px #2e7ac6;
+}
+div#content form div#what-you-get {
+  clear: both;
+  padding-top: 1px;
+}
+div#content form div#what-you-get h3 {
+  text-align: center;
+  font-family: arial, sans-serif;
+  padding: 10px 0px 15px 0px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 0px;
+}
+div#content form div.details-container {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+div#content form div.details-container article {
+  width: 310px;
+  height: 240px;
+  float: left;
+  margin-right: 15px;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+div#content form div.details-container article:last-child {
+  margin-right: 0px;
+}
+div#content form div.details-container article header {
+  background-color: #35b0cf;
+  padding: 5px 20px;
+  font-family: "arial black", arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+}
+div#content form div.details-container article ul {
+  list-style: none;
+  padding-left: 0px;
+}
+div#content form div.details-container article ul li {
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+div#content form div.details-container article ul li i {
+  color: #35b0cf;
+  font-size: 15px;
+  margin-right:5px;
+}
+.header-content{
+  background: #fff;
+  padding-bottom:20px;
+}
+.header-content h1 {
+  background: #424242;
+  padding: 10px;
+  color: #fff;
+  margin:0;
+  margin-bottom: 20px;
+}
+.details-container .col{
+  float:left;
+  width:300px;
+  margin-left:10px;
+  margin-top:10px;
+}
+.details-container .col input{
+  width:290px;
+  padding:4px 2px;
+  border-radius: 3px;
+  border:1px solid #e5e5e5;
+}
+.details-container .col select{
+  max-width:290px;
+    padding:4px 2px;
+  border-radius: 3px;
+  border:1px solid #e5e5e5;
+  }
+#show-billing{
+  color: #34b0d2;
+  font-size: 13px;
+}
+#show-billing-wrap{
+  margin-left:10px;
+  margin-top:15px;
+}
+.btn-wrap {
+  width: 310px;
+  margin: 20px auto;
+  padding: 5px;
+  background: #34b0d2;
+}
+.btn-wrap input[type="submit"] {
+  text-decoration: none;
+  color: #FFF;
+  padding: 5px 63px;
+  border: 3px solid #FFF;
+  font-size: 23px;
+  background: #34b0d2;
+  margin-top: 0px;
+}

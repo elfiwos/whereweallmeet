@@ -1,0 +1,140 @@
+#center-form-container form p.error {
+    color: red;
+}
+#wrapper {
+    min-width: 0;
+    background-color: white !important;
+}
+#wrapper div#content {
+    padding: 0;
+    width: 100%;
+    background-color: white !important;
+}
+#main-header {
+    display: none;
+}
+nav#main-nav {
+    display: none;
+}
+#footer {
+    min-width: 0;
+}
+#footer > div {
+    width: 90%;
+}
+#footer div#social-links-container {
+    display: none;
+}
+#footer #public-nav a {
+    margin-left: 0 !important;
+    line-height: 25px !important;
+}
+
+#top-section-border {
+    background-image: url("../../img/pages/home2/color.jpg"), url("../../img/pages/home2/header-background.gif");
+    background-repeat: repeat-x, repeat;
+    background-position: right top, left top;
+    padding-bottom: 20px;
+}
+#top-section {
+    background-color: white;
+    margin: auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#top-section #login-button-container {
+    background-color: #30abca;
+    border-radius: 3px;
+    font-family: arial;
+    font-size: 22px;
+    padding: 8px 30px;
+}
+#top-section #login-button-container a {
+    color: white;
+    font-weight: normal;
+    text-decoration: none;
+}
+#top-section div#top-section-content {
+    margin: 0 auto;
+    width: 90%;
+}
+#top-section-content div#logo-container {
+    float: left;
+    margin-right: 20px;
+}
+#top-section-content div#login-button-container {
+    float: right;
+    margin-top: 10px;
+}
+#content div#our-services-container {
+    background-image: url("../../img/pages/home2/sign-up-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 50%;
+}
+#content div#our-services-container img {
+    display: none;
+}
+#our-services-container p {
+    color: white;
+    font-family: arial;
+    font-size: 36px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#wrapper div#content div#center-form-container.sign-up {
+    border: medium none;
+    width: 35%;
+}
+#wrapper div#content div#center-form-container > div {
+    margin-top: 30px;
+    padding: 0;
+}
+#wrapper div#content div#center-form-container form p label {
+    display: block;
+    width: 100%;
+}
+#wrapper div#content div#center-form-container form p input[type="text"],
+#wrapper div#content div#center-form-container form p input[type="password"] {
+    width: 96%;
+}
+
+#wrapper div#content div#center-form-container form p input[type="submit"] {
+    background-color: #4ab5cd;
+    width: 100%;
+    border: 1px solid #4ab5cd;
+}
+#wrapper div#content div#center-form-container form p.submit span {
+    border-top: 1px solid #ebebeb;
+    line-height: 25px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.sign-up select {
+    border: 1px solid #b3b3b3;
+    padding: 3px;
+    width: 31%;
+}
+select#select-gender {
+    width: 100%;
+}
+select#day {
+    width: 22%;
+}
+select#month {
+    width: 22%;
+}
+select#year {
+    width: 53%;
+}
+#wrapper div#content div#center-form-container form p span.error {
+    margin-right: 0;
+    margin-top: 5px;
+    text-align: left;
+}
+
+@media(max-width:463px){
+    #top-section-content div#login-button-container {float: left;}
+    #wrapper div#content div#center-form-container.sign-up {width: 90%}
+}

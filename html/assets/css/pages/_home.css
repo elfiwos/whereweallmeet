@@ -1,0 +1,627 @@
+.clearfix {
+    display: block;
+}
+.clearfix:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+}
+a {
+    -moz-outline: none 0;
+    outline: none 0;
+}
+img.header-bgcolor{
+    position: fixed;
+    right: 0px;
+    width:100%;
+    left: 0px;
+    min-height:4px;
+    z-index: 1031;
+}
+#top-section {
+    background-image: url("../../img/pages/home2/color.jpg"), url("../../img/pages/home2/header-background.gif");
+    background-repeat: repeat-x, repeat;
+    /*background-position: right top, left top;*/
+    padding-bottom: 10px;
+}
+#top-section h3{
+    color: #fff;
+}
+#top-section h3, h1{
+    font-family: 'Oswald', helvetica !important;
+}
+.blue-btn{
+    background-color: #45b7d3;
+    color: #fff;
+}
+.blue{
+    color: #45b7d3;
+}
+.purple, .purple a{
+    color: #c0417f !important;
+}
+.green{
+    color: #34cf95;
+}
+.yellow{
+    color: #f3b82a;
+}
+#top-section div#top-section-content {
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 75%;
+}
+#top-section-content div#logo-container {
+    float: left;
+}
+#top-section-content div#company-identity-container {
+    float: right; 
+}
+#top-section-content div#login-container {
+    width: 80%;
+    margin: 0 auto;   
+    /*float: right; */
+}
+#top-section-content div#login-container form {
+    width: inherit;
+    margin: 0 auto;
+    float: right;
+}
+#top-section-content div#login-container form.form-inline div {
+    float: left;
+}
+#top-section-content div#login-container div.username {
+    padding-right: 10px;
+}
+#top-section-content div#login-container div.password {
+    padding-right: 10px;
+}
+#top-section-content div#login-container div.login-btn-container {
+    padding-top: 21px;
+}
+#top-section-content div#login-container p {
+    font-family: arial;
+    font-size: 13px;
+    margin-bottom: 3px;
+}
+#top-section-content #login-container input[type='text'],
+#top-section-content #login-container input[type='password'] {
+    background-color: #f5f5f5;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    font-family: arial;
+    font-size: 13px;
+    padding: 3px 5px;
+    width: 185px;
+    
+}
+#top-section-content #login-container input,
+#top-section-content #login-container button{
+    margin: 0 5px;
+}
+#top-section-content #login-container input[type=checkbox]{
+    margin: 0px;
+    vertical-align: middle;
+}
+#top-section-content #login-container label{
+    font-size: 10px;
+    color: #8c8c8c;
+    text-align: left;
+}
+
+#top-section-content #login-container label a{
+    margin-left: 16px;
+    text-decoration: underline;
+    font-style: italic;
+}
+#top-section-content #login-container button {
+    /*background-color: black;*/
+    /*border: 1px solid black;*/
+    border-radius: 3px;
+    color: white;
+    font-family: arial;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 10px !important;
+}
+#signup-container {
+    background-image: url("../../img/pages/home2/signup-background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 10px;
+}
+#signup-container div#signup-content {
+    margin: 0 auto;
+    padding-top: 10px;
+    display: table;
+    /*width: 75%;*/
+    min-height: 460px;
+}
+#signup-container #signup-content div#left-section-content {
+    color: white;
+    float: left;
+    font-family: arial;
+    width: 475px;
+}
+#signup-container #signup-content div#left-section-content h3 {
+    font-size: 32px;
+}
+#signup-container #signup-content #left-section-content div.more-text {
+    display: none;
+}
+#signup-container #signup-content div#left-section-content p {
+    font-family: arial;
+    font-size: 17px;
+}
+#signup-container #signup-content #left-section-content p.more-less-button a {
+    cursor: pointer;
+    text-decoration: none;
+}
+#signup-container #signup-content div#right-section-content {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    float: right;
+    margin-top: 80px;
+    font-family: arial;
+    padding: 0 20px 20px 20px;
+    width: 463px;
+}
+#signup-container #signup-content #right-section-content p#get-started {
+    color: #34cf95;
+    font-size: 28px;
+    margin-bottom: 0;
+    text-align: center;
+}
+#signup-container #signup-content #right-section-content p#get-started span {
+    color: #f3b82a;
+}
+#signup-container #signup-content #right-section-content #registration-text {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+    background: url(../../img/pages/home2/separator.png) repeat-x 100% 100%;
+}
+#signup-container #signup-content #right-section-content form select {
+    color: #919191;
+    background: transparent;
+   width: 100%;
+   padding: 5px 10px;
+   font-size: 16px;
+   line-height: 1;
+   border: 0;
+   border-radius: 0;
+   height: 34px;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+}
+.styled-select{
+    float: right;
+    width: 70%;
+   margin-left: 15px;
+   overflow: hidden;
+   background: url(../../img/pages/home2/select-arrow.png) no-repeat 95% #fff;
+}
+
+#signup-container #signup-content #right-section-content form div{
+    color: #fff;
+    text-align: right;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+#signup-container #signup-content #right-section-content form div label{
+    font-weight: bold;
+    vertical-align: middle !important;
+    font-size: 18px;
+    margin-top: 5px;
+}
+#signup-container #signup-content #right-section-content form p.full-name .inline {
+    float: left;
+    margin-right: 2%;
+    width: 49%;
+}
+#signup-container #signup-content #right-section-content form p.full-name .inline.lastname {
+    margin-right: 0;
+}
+#signup-container #signup-content #right-section-content form input.full-row {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+#signup-container #signup-content #right-section-content form p.gender span {
+    color: white;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+#signup-container #signup-content #right-section-content button {
+    background-color: #40b5d1;
+    border: 1px solid #40b5d1;
+    color: white;
+    font-size: 23px;
+    text-transform: uppercase;
+    width: 100%;
+}
+#signup-container #signup-content #right-section-content form p.terms-text {
+    color: white;
+    font-size: 11px;
+    line-height: 13px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+#get-started-container{
+    background-color: #f7f8fa;
+}
+#get-started-container div#get-started-content {
+    margin: 0 auto;
+    padding-bottom: 70px;
+    width: 75%;
+}
+#get-started-container div#get-started-content img.get-started-bgcolor{
+    vertical-align: top;
+    width: 100%;
+    z-index: 1031;
+}
+#get-started-content h1 {
+    display: block;
+    font-family: arial;
+    font-size: 42px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#get-started-container div#get-started-content #get-started-list {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+#get-started-container div#get-started-content h1{
+    color: #555555;
+    background-image: url(../../img/pages/home2/separator.png);
+    background-repeat: repeat-x;
+    background-position: 100% 50%;
+}
+#get-started-container div#get-started-content h1 span{
+    background-color: #f7f8fa;
+    padding: 0 15px;
+}
+#get-started-container div#get-started-content #get-started-list div {
+    /*background-color: #f5f5f5;*/
+    background-color: #fff;
+    float: left;
+    /*margin-right: 10px;*/
+    margin-right: 1%;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 24%;
+    border: 1px solid #ededed;
+}
+#get-started-container div#get-started-content #get-started-list div:last-child
+{
+    margin-right: 0px;
+}
+
+#get-started-container div#get-started-content #get-started-list div:first-child{
+    /*margin-left: 0px;*/
+}
+#get-started-container div#get-started-content #get-started-list div img{
+    width: 100%;
+}
+#get-started-container div#get-started-content #get-started-list div.last-item {
+    margin-right: 0;
+}
+span.blue-underline{
+    border-bottom: 3px solid #45b7d3;
+}
+span.purple-underline{
+    border-bottom: 3px solid #c0417f;
+}
+span.green-underline{
+    border-bottom: 3px solid #34cf95;
+}
+span.yellow-underline{
+    border-bottom: 3px solid #f3b82a;
+}
+#get-started-list div p {
+    font-family: helvetica;
+    font-size: 14px;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+#get-started-list div h3 {
+    font-family: helvetica;
+    font-size: 23px;
+    text-align: left;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+#get-started-list div a {
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    font-family: helvetica;
+    font-size: 13px;
+    line-height: 45px;
+    padding: 8px 15px;
+    text-decoration: none;
+}
+#get-started-list div a.easy-to-join-btn {
+    background-color: #45b7d3;
+}
+#get-started-list div a.build-your-profile-btn {
+    background-color: #c0417f;
+}
+#get-started-list div a.my-dating-agent-btn {
+    background-color: #34cf95;
+}
+#get-started-list div a.chat-instantly-btn {
+    background-color: #f3b82a;
+}
+#footer-section {
+    background-color: #f7f7f7;
+    border-top: 1px solid #ededed;
+    padding-top: 20px;
+}
+#footer-section #footer-content {
+    margin: 0 auto;
+    width: 72%;
+}
+#footer-section #footer-content p {
+    float: left;
+    font-family: helvetica;
+    font-size: 13px;
+    line-height: 10px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+}
+#footer-section #footer-content p.right {
+    float: right;
+    margin-right: 0;
+}
+#footer-section img.footer-bottom {
+    vertical-align: bottom;
+    width: 100%;
+}
+#footer-section #footer-content p a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #5a5a5a;
+}
+#profile-picture-section div.left img {
+    left: 229px;
+    position: relative;
+    top: -15px;
+}
+
+div.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    min-width: 1160px;
+}
+.modal-container {
+    display: none;
+    position: absolute;
+}
+.modal-dialog .modal-content .modal-header {
+    background-color: #2f2f2f;
+}
+.modal-dialog .modal-content .modal-header .close {
+    margin-top: -25px;
+    margin-right: -20px;
+}
+button.close {
+    padding:2px 3px;
+    cursor: pointer;
+    background: none repeat scroll 0% 0% #000;
+    border: 1px solid #f5f5f5;
+    border-radius:3px;
+}
+.close:not(.fa) {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    float: right;
+    text-shadow: 0px 1px 0px #FFF;
+    opacity: 1;
+}
+.close:hover {
+    opacity: 1;
+    color: #fff;
+}
+.modal-dialog .modal-content .modal-header h3.modal-title{
+    color: #fff;
+}
+.modal-dialog .modal-content .modal-header{
+    background: #2f2f2f;
+    color: #fff;
+}
+.modal-privacy{
+    max-height:500px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+}
+.modal-dialog div.more-text {
+    display: none;
+    margin-bottom: 10px;
+}
+.modal-dialog p.more-less-button a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#login-section{
+    padding: 10px;
+    margin: auto auto;
+}
+
+.account-modal{
+    top:190px !important;
+}
+.account-modal .modal-body{
+    padding: 0px 20px 0px 0px;
+    overflow: hidden;
+}
+.account-modal .modal-header{
+    background: #2f2f2f url(../../img/pages/home2/color-small.jpg) repeat-x 100% 100% !important;
+    min-height: 5px;
+    padding: 0px;
+}
+.account-modal .modal-content{
+    border-radius: 0px !important;
+}
+
+.account-modal > .row{
+    min-height: 500px;
+}
+.account-modal .col-md-7{
+    min-height: 500px;
+    font-weight: bold;
+    padding-right: 0px;
+    color: #fff;
+   background: url(../../img/pages/home2/popup-image.jpg) no-repeat;
+}
+.account-modal .col-md-7 h3{
+    border-bottom: 1px solid #fff;
+    display: -webkit-flex; 
+    -webkit-justify-content: space-around; 
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5px;
+}
+#popup_one_text{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0px;
+    padding: 5px 15px;
+    text-align: left;
+}
+.account-modal .col-md-5 label{
+    position: relative;
+  right: -50px;
+}
+.account-modal .col-md-5 .clearfix{
+    margin-bottom: 10px;
+}
+.account-modal .col-md-5 input,
+.get-info-modals .floating-container  input[type="text"]{
+    width: 100%;
+    padding:3px 10px;
+    float: right;
+}
+.account-modal .col-md-5 select,
+.get-info-modals .floating-container select{
+    padding: 3px 8px;
+    background-color: #fff;
+    width: 32%;
+}
+.account-modal .col-md-5 select:last-child{
+    margin-left: 0px;
+}
+.account-form h2{
+    border-bottom: 1px solid #bdbdbd;
+    text-align: center;
+    width: 310px;
+    margin: 10px auto;
+}
+.col.account-form .col{
+    min-height: none !important;
+}
+.col.account-form .row{
+    margin-bottom: 10px;
+}
+.col.account-form .row .col-md-4{
+    text-align: right;
+    padding-top: 5px;
+}
+.col.account-form .row .col-md-8{
+    padding-left: 0px;
+    padding-right: 20px;
+}
+.col.account-form .row .col-md-8 button,
+.get-info-modals .floating-container button, 
+.next-button{
+    background-color: #40b5d1;
+  border: 1px solid #40b5d1;
+  color: white;
+  text-transform: uppercase;
+  width: 80%;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+.col.account-form .row p{
+    padding: 20px 10px 20px 30px;
+}
+.get-info-modals{
+    top:190px !important;
+}
+.get-info-modals .modal-header{
+    min-height: 130px;
+    text-align: center;
+    background: #2f2f2f url(../../img/pages/home2/color-small.jpg) repeat-x 0% 0% !important;
+}
+
+.get-info-modals .floating-container{
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    top: -50px;
+    background-color: #fff;
+    padding: 30px 20px;
+    border-radius: 3px 3px 0px 0px;
+}
+
+.get-info-modals .floating-container .full-width select{
+    width: 100%;
+}
+.get-info-modals .floating-container .half-width select{
+    width: 49%;
+}
+.get-info-modals .floating-container .row{
+    margin-bottom: 10px;
+}
+.get-info-modals .floating-container .row .col-md-3{
+    text-align: right;
+}
+button#step_nine{
+    background-color: #3b3b3b;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 150px;
+}
+#step_nine_dialog .floating-container{
+    padding-top: 0px;
+}
+#step_nine_dialog .upload-box{
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 200px;
+}
+#step_nine_dialog .upload-box img{
+    height: 90px;
+    margin: 20px auto;
+}
+.upload-box{
+    width: 245px;
+    float: right;
+}
+.upload-box:first-of-type{
+    float: left;
+}

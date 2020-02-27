@@ -1,0 +1,139 @@
+#banner-ads > h2 {
+    border-bottom: 1px solid;
+    color: #004793;
+}
+
+#banner-ads form {
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+}
+#banner-ads form div input[type="text"] {
+    border: 1px solid #d9d9d9;
+    font-size: 12px;
+    margin-left: 10px;
+    margin-top: 0;
+    padding: 2px 4px;
+    width: 600px;
+}
+#banner-ads .items div {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+#banner-ads .items div p {
+    color: #595959;
+    font-size: 14px;
+    margin: 10px 0 5px 10px;
+}
+#banner-ads .items div p#upload-button-container {
+    margin-top: 0;
+}
+#banner-ads form div a#banner-upload-button {
+    background-color: rgb(12, 88, 164);
+    border: 1px solid rgb(12, 88, 164);
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+#banner-ads .items div#publish {
+    margin-left: 10px;
+}
+#banner-ads #form_btnPublishBanner {
+    background-color: rgb(12, 88, 164);
+    border: 1px solid rgb(12, 88, 164);
+    border-radius: 3px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 3px 9px;
+}
+#banner-list-container {
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+}
+
+
+div#banner-ads p#publish{
+    text-align: center;
+}
+
+div#banner-ads p#publish input[type="submit"] {
+    border: medium none;
+    font-size: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div#banner-ads table {
+    font-family: arial,sans-serif;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 945px;
+}
+
+div#banner-ads table thead {
+    text-align: center;
+}
+
+div#banner-ads table .table-heading {
+    background-color: #838383;
+    color: white;
+    height: 30px;
+}
+
+div#banner-ads table td {
+    padding: 5px 8px 5px 0;
+}
+
+
+div#banner-ads table .text-left {
+    text-align: left;
+}
+
+div#banner-ads table .text-right {
+    text-align: right;
+    padding-right: 20px;
+}
+
+div#banner-ads table tbody tr {
+    border-bottom: 1px solid #C7C7C7;
+}
+
+#banner-list-container h2 {
+
+}
+#banner-list-container #button-container {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+#banner-list-container #button-container input[type="submit"] {
+    background-color: rgb(12, 88, 164);
+    border: 1px solid rgb(12, 88, 164);
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    margin-right: 5px;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+.no-data-message {
+    padding: 20px 10px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,112 @@
+#dashboard-container > div {
+    float: left;
+    margin-bottom: 70px;
+    margin-left: 45px;
+    text-align: center;
+    width: 203px;
+}
+#dashboard-container > div p.title {
+    font-family: denseregular;
+    font-size: 25px;
+    font-weight: 100;
+}
+#dashboard-container > div p.count {
+    border: 1px solid;
+    height: 165px;
+    line-height: 165px;
+    margin-top: 5px;
+}
+
+#dashboard-container > div a {
+    color: black;
+    text-decoration: none;
+}
+
+#dashboard-container > div a:focus {
+    outline: none;
+}
+#dashboard-container > div p.count:hover {
+    background-color: #e0e0e0;
+}
+
+
+
+
+/*admin notification style*/
+#admin-notification-container {
+    background-color: #f5f5f5;
+    border: 1px solid #e0e0e0;
+    border-radius: 3px;
+    font-size: 13px;
+    margin: 0 auto;
+    width: 700px;
+}
+#admin-notification-container div#send-to {
+    padding: 10px;
+}
+#admin-notification-container div#message-body {
+    padding: 10px;
+}
+#admin-notification-container #messages_header {
+    background-color: #f3b82a;
+    border-radius: 3px 3px 0 0;
+    color: white;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 5px 5px 5px 10px;
+}
+#messages_header h2 {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+}
+#send-to > span {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+#send-to select {
+    border: 1px solid #e5e5e5;
+    font-size: 13px;
+    padding: 3px;
+    width: 200px;
+}
+#message-body span {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+#message-body textarea {
+    border: 1px solid #e5e5e5;
+    height: 200px;
+    margin-top: 0;
+    padding: 5px;
+    width: 580px;
+}
+#admin-notification-container input[type="submit"] {
+    background-color: #f3b82a;
+    border: 1px solid #f3b82a;
+    color: white;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 30px 10px 10px;
+    padding: 3px 15px;
+}
+
+.banner-ad-button-container {
+    background: none repeat scroll 0 0 #f3b82a;
+    margin-left: 42px;
+    margin-right: 210px;
+    padding: 5px 4px;
+}
+.banner-ad-button-container a {
+    border: 3px solid #fff;
+    color: #fff;
+    display: block;
+    font-size: 23px;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+}
